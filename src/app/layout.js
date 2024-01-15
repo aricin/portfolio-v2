@@ -11,6 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Aricin Rotarius</title>
+        <link rel="icon" type="image/png" href="path/to/your/favicon.ico" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

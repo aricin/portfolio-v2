@@ -16,9 +16,17 @@
   }
 }
 
+* {
+  /* border: red 1px solid; */
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, #111431,#131839);
+  background:
+    radial-gradient(circle at 40% 20%, #0b062c 0%, transparent 80%),
+    conic-gradient(from 360deg at 0% 0%, #140d1d 0%, transparent 70%),
+    radial-gradient(circle at 20% 55%, #2e3170 0%, transparent 60%),
+    linear-gradient(#000000, #060713);
   background-attachment: fixed;
   /* background: linear-gradient(
       to bottom,
@@ -26,4 +34,22 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0813;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(25, 27, 52);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(45, 50, 82);
 }
