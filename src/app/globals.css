@@ -16,15 +16,9 @@
   }
 }
 
-* {
-  /* border: red 1px solid; */
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
+  color: white;
   background: #060713;
-  background-attachment: fixed;
-  overscroll-behavior: none;
   /* background: linear-gradient(
       to bottom,
       transparent,

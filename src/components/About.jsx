@@ -8,7 +8,7 @@ function About() {
           className='mb-3 w-28 h-28 sm:w-36 sm:h-36 rounded-full'
         />
         <div className='sm:pl-5'>
-          <h1 className='text-4xl sm:text-5xl mb-2 font-semibold'>Hi, I&apos;m Aricin.</h1>
+          <h1 className='text-4xl sm:text-5xl text-white mb-2 font-semibold'>Aricin Rotarius</h1>
           <p className='text-md sm:text-xl text-gray-300'>Full-Stack Software Engineer</p>
           <p className='text-md sm:text-xl text-gray-300'>Recent Grad @ UW-Madison</p>
           <div className='flex mt-3 space-x-3 justify-center sm:justify-start'> 
