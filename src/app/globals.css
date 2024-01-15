@@ -22,13 +22,8 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #060713;
-  background:
-    radial-gradient(circle at 40% 20%, #0b062c 0%, transparent 80%),
-    conic-gradient(from 360deg at 0% 0%, #140d1d 0%, transparent 70%),
-    radial-gradient(circle at 20% 55%, #2e3170 0%, transparent 60%),
-    linear-gradient(#000000, #060713);
-    background-attachment: fixed;
+  background: #060713;
+  background-attachment: fixed;
   overscroll-behavior: none;
   /* background: linear-gradient(
       to bottom,
@@ -37,6 +32,18 @@ body {
     )
     rgb(var(--background-start-rgb)); */
 }
+
+main {
+  color: rgb(var(--foreground-rgb));
+  background:
+    radial-gradient(circle at 40% 20%, #0b062c 0%, transparent 80%),
+    conic-gradient(from 360deg at 0% 0%, #140d1d 0%, transparent 70%),
+    radial-gradient(circle at 20% 55%, #2e3170 0%, transparent 60%),
+    linear-gradient(#000000, #060713);
+  background-attachment: fixed;
+  overscroll-behavior: none;
+}
+
 
 ::-webkit-scrollbar {
   width: 10px;
