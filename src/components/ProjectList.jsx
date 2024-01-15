@@ -8,11 +8,11 @@ function ProjectList() {
         <ProjectCard
           title='cardgamer.club'
           date='March 2023'
-          description="Inspired by the likes of Dutch Blitz and Nerts.
+          description='Inspired by the likes of Dutch Blitz and Nerts.
             Plays 2-6 people. When a user first loads the website they are put in
             a private lobby with a unique invite link. Along the way, my approach was to find the lightest weight
             solution for each problem. This led me to build a completely serverless application using
-            Firebase's Realtime Database and Netlify Functions."
+            Firebase&apos;s Realtime Database and Netlify Functions.'
           linkValue1='https://github.com/aricin/apple-crisp'
           projectImage='applepic.PNG'
           technologies={['JavaScript', 'Node.js', 'Firebase']}
@@ -44,7 +44,7 @@ function ProjectList() {
           technologies={['Python', 'Django', 'MySQL', 'Docker']}
         />
         <ProjectCard
-          title="Aricin/'s Blog"
+          title='Aricin&apos;s Blog'
           date='May 2022'
           description='This was my first project using Django. It is a simple blog application where
             users can sign up and make posts. I learned about MVC architecture, user authenticaiton, and authorization. 

@@ -23,20 +23,6 @@ function ProjectCard({ projectImage, title, date, description, linkValue1, linkT
                       </span>
                   ))}
                 </div>
-                {/* <div className='flex flex-col mt-4'>
-                    {linkValue1 && linkText1 && (
-                        <a className='flex items-center mt-2 text-blue-400 hover:text-blue-600' href={linkValue1} target='_blank' rel='noopener noreferrer'>
-                            <i className='fa-solid fa-arrow-up-right-from-square mr-2'></i>
-                            {linkText1}
-                        </a>
-                    )}
-                    {linkValue2 && linkText2 && (
-                        <a className='flex items-center mt-2 text-gray-400 hover:text-gray-600' href={linkValue2} target='_blank' rel='noopener noreferrer'>
-                            <i className='fa-brands fa-github mr-2'></i>
-                            {linkText2}
-                        </a>
-                    )}
-                </div>   */}
               </div>
             </div>
         </a>
