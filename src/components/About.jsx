@@ -8,7 +8,7 @@ function About() {
           className='mb-3 w-28 h-28 sm:w-36 sm:h-36 rounded-full'
         />
         <div className='sm:pl-5'>
-          <h1 className='text-4xl sm:text-5xl mb-2 font-semibold'>Hi, I'm Aricin.</h1>
+          <h1 className='text-4xl sm:text-5xl mb-2 font-semibold'>Hi, I&apos;m Aricin.</h1>
           <p className='text-md sm:text-xl text-gray-300'>Full-Stack Software Engineer</p>
           <p className='text-md sm:text-xl text-gray-300'>Recent Grad @ UW-Madison</p>
           <div className='flex mt-3 space-x-3 justify-center sm:justify-start'> 
@@ -25,7 +25,7 @@ function About() {
         </div>
       </div>
       <p className='mt-10 text-gray-300 text-center sm:text-start'>
-        Hello! I'm a recent graduate from the University of Wisconsin-Madison, where I earned a Bachelor of Science in Computer Science and a certificate in Entrepreneurship. I'm currently looking for my next positon as a Software Engineer, bringing along my passion for innovation and building cool stuff.
+        Hello! I&apos;m a recent graduate from the University of Wisconsin-Madison, where I earned a Bachelor of Science in Computer Science and a certificate in Entrepreneurship. I&apos;m currently looking for my next positon as a Software Engineer, bringing along my passion for innovation and building cool stuff.
       </p>
       <a href='https://chat.openai.com/g/g-ldBGWxlD0-aricingpt' className='flex row mt-6 justify-center sm:justify-start' target='_blank'>
         &#128073;
