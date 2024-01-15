@@ -28,7 +28,7 @@ body {
     radial-gradient(circle at 20% 55%, #2e3170 0%, transparent 60%),
     linear-gradient(#000000, #060713);
   background-attachment: fixed;
-  overscroll-behavior: contain;
+  overscroll-behavior: none;
   /* background: linear-gradient(
       to bottom,
       transparent,
