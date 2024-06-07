@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Aricin Rotarius</title>
+        <meta name="description" content="Full-Stack Software Engineer. Proficient in TypeScript, Python, Next.js, React.js, Django."></meta>
         <link rel="icon" type="image/png" href="path/to/your/favicon.ico" />
       </head>
       <body className={inter.className}>{children}</body>
