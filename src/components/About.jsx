@@ -1,7 +1,7 @@
 function About() {
   return (
     <div className='xl:sticky 2xl:top-24 top-16 flex flex-col max-w-lg h-fit mx-auto p-5 pb-16'>
-      <div className='flex flex-col sm:flex-row sm:text-left items-top text-center'>
+      <div className='flex flex-col sm:flex-row sm:text-left items-center sm:items-top text-center'>
         <img
           src='aricin-portrait2.jpg'
           alt='Profile'
